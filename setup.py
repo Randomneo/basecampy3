@@ -8,15 +8,15 @@ with open(os.path.join(here, 'README.md'), 'r') as infile:
     long_description = infile.read()
 
 about = {}
-with open(os.path.join(here, 'basecampy3', '__version__.py'), 'r', encoding='utf-8') as infile:
+with open(os.path.join(here, 'basecampy3R', '__version__.py'), 'r', encoding='utf-8') as infile:
     exec(infile.read(), about)
 
 setup(
     name='basecampy3R',
     version=about['__version__'],
     packages=[
-        'basecampy3',
-        'basecampy3.endpoints'
+        'basecampy3R',
+        'basecampy3R.endpoints'
     ],
     install_requires=[
         "beautifulsoup4",
@@ -30,7 +30,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'bc3 = basecampy3.bc3_cli:main',
+            'bc3 = basecampy3R.bc3_cli:main',
         ],
     },
     url='https://github.com/phistrom/basecampy3',
