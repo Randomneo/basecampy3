@@ -19,14 +19,14 @@ setup(
         'basecampy3.endpoints'
     ],
     install_requires=[
-        "beautifulsoup4==4.6.0",
-        "certifi>=2018.1.18",
-        "chardet==3.0.4",
-        "idna==2.6",
-        "python-dateutil==2.7.2",
-        "requests==2.18.4",
-        "six==1.11.0",
-        "urllib3==1.22",
+        "beautifulsoup4",
+        "certifi",
+        "chardet",
+        "idna",
+        "python-dateutil",
+        "requests",
+        "six",
+        "urllib3",
     ],
     entry_points={
         'console_scripts': [
@@ -35,8 +35,8 @@ setup(
     },
     url='https://github.com/phistrom/basecampy3',
     license='MIT',
-    author='Phillip Stromberg',
-    author_email='phillip@4stromberg.com',
+    author='Rostislav Misiura',
+    author_email='rostislav9999@gmail.com',
     description='Aims to be the easiest to use version of the Basecamp 3 API',
     classifiers=(
         'Development Status :: 4 - Beta',
