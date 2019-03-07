@@ -12,7 +12,7 @@ with open(os.path.join(here, 'basecampy3', '__version__.py'), 'r', encoding='utf
     exec(infile.read(), about)
 
 setup(
-    name='basecampy3',
+    name='basecampy3R',
     version=about['__version__'],
     packages=[
         'basecampy3',
